@@ -1,0 +1,29 @@
+<mat-toolbar color="primary">
+    <span><img src="/assets/images/logo.png" height=30 width=41></span>
+    <a mat-button routerLink='/home' routerLinkActive='active'><mat-icon>home</mat-icon> Home</a>
+    <a mat-button routerLink='/about' routerLinkActive='active'><mat-icon>info</mat-icon> About</a>
+    <a mat-button routerLink='/menu' routerLinkActive='active'><mat-icon>receipt</mat-icon> Menu</a>
+    <a mat-button routerLink='/contactus' routerLinkActive='active'><mat-icon>contact_phone</mat-icon> Contact</a>
+    <span class="flex-spacer"></span>
+    <a mat-button (click)="openLoginForm()"><mat-icon>input</mat-icon> Login</a>
+  </mat-toolbar>
+  
+  <div class="container jumbotron"
+      fxLayout="row"
+      fxLayout.sm="column" 
+      fxLayout.xs="column" 
+      fxLayoutAlign.xs="start center"
+      fxLayoutAlign.sm="start center" 
+      fxLayoutAlign.gt-sm="center center" 
+      fxLayoutGap="10px">
+  
+    <div fxFlex fxFlex.gt-sm="50%">
+      <h1>Ristorante Con Fusion</h1>
+      <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations
+        will tickle your culinary senses!</p>
+    </div>
+    <div fxFlex fxFlex.gt-sm="20%">
+      <img src="/assets/images/logo.png" alt="Logo">
+    </div>
+    <div fxFlex></div>
+  </div>

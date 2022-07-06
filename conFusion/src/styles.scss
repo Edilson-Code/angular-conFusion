@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'variables';
+@import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css';
+@import '../node_modules/simple-line-icons/scss/simple-line-icons';
+
+// some basic resets
+body{
+    $padding: 0;
+    $margin: 0;
+    $font-family: Roboto, sans-serif;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+}
+.flex-spacer{
+    flex: 1 1 auto;
+}
+.highlight{
+    background-color: rgb(175, 167, 190);
+    border: 1px solid rgb(43, 10, 40);
+    z-index: 1;
+    transform: scale(1.02);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

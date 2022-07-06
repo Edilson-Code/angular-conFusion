@@ -1,0 +1,10 @@
+.center {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clip-circle { 
+    clip-path: circle(45px at center); 
+}
+.pre {white-space: pre}
